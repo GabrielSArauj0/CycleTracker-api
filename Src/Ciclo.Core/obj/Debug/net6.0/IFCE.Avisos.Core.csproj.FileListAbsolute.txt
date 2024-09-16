@@ -1,0 +1,14 @@
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/bin/Debug/net6.0/instrument.cmd
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/bin/Debug/net6.0/instrument.sh
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/bin/Debug/net6.0/IFCE.Avisos.Core.deps.json
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/bin/Debug/net6.0/IFCE.Avisos.Core.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/bin/Debug/net6.0/IFCE.Avisos.Core.pdb
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/IFCE.Avisos.Core.csproj.AssemblyReference.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/IFCE.Avisos.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/IFCE.Avisos.Core.AssemblyInfoInputs.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/IFCE.Avisos.Core.AssemblyInfo.cs
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/IFCE.Avisos.Core.csproj.CoreCompileInputs.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/IFCE.Avisos.Core.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/refint/IFCE.Avisos.Core.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/IFCE.Avisos.Core.pdb
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/Debug/net6.0/ref/IFCE.Avisos.Core.dll

@@ -1,0 +1,14 @@
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/bin/Debug/net6.0/instrument.cmd
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/bin/Debug/net6.0/instrument.sh
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/bin/Debug/net6.0/Ciclo.Core.deps.json
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/bin/Debug/net6.0/Ciclo.Core.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/bin/Debug/net6.0/Ciclo.Core.pdb
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/Ciclo.Core.csproj.AssemblyReference.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/Ciclo.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/Ciclo.Core.AssemblyInfoInputs.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/Ciclo.Core.AssemblyInfo.cs
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/Ciclo.Core.csproj.CoreCompileInputs.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/Ciclo.Core.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/refint/Ciclo.Core.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/Ciclo.Core.pdb
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/Debug/net6.0/ref/Ciclo.Core.dll

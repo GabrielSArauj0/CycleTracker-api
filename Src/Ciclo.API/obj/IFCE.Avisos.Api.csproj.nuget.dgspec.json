@@ -1,0 +1,527 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Api/IFCE.Avisos.Api.csproj": {}
+  },
+  "projects": {
+    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Api/IFCE.Avisos.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Api/IFCE.Avisos.Api.csproj",
+        "projectName": "IFCE.Avisos.Api",
+        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Api/IFCE.Avisos.Api.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Application/IFCE.Avisos.Application.csproj": {
+                "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Application/IFCE.Avisos.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.MySql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "DateOnlyTimeOnly.AspNet": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "DateOnlyTimeOnly.AspNet.Swashbuckle": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.32, )"
+            },
+            "NetDevPack.Security.Jwt.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "NetDevPack.Security.Jwt.Core": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "NetDevPack.Security.Jwt.Store.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "NetDevPack.Security.Jwt.Store.FileSystem": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.27, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Application/IFCE.Avisos.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Application/IFCE.Avisos.Application.csproj",
+        "projectName": "IFCE.Avisos.Application",
+        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Application/IFCE.Avisos.Application.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Infra.Data/IFCE.Avisos.Infra.Data.csproj": {
+                "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Infra.Data/IFCE.Avisos.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "Hangfire.MySqlStorage": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Physical": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NetDevPack.Security.Jwt.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "NetDevPack.Security.Jwt.Core": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "ScottBrady91.AspNetCore.Identity.Argon2PasswordHasher": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/IFCE.Avisos.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/IFCE.Avisos.Core.csproj",
+        "projectName": "IFCE.Avisos.Core",
+        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/IFCE.Avisos.Core.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.AutoInstrumentation": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Extensions.Propagators": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-beta.12, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Resources.Container": {
+              "target": "Package",
+              "version": "[1.0.0-beta.9, )"
+            },
+            "OpenTelemetry.Resources.Host": {
+              "target": "Package",
+              "version": "[0.1.0-beta.2, )"
+            },
+            "OpenTelemetry.Resources.Process": {
+              "target": "Package",
+              "version": "[0.1.0-beta.2, )"
+            },
+            "OpenTelemetry.Resources.ProcessRuntime": {
+              "target": "Package",
+              "version": "[0.1.0-beta.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/IFCE.Avisos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/IFCE.Avisos.Domain.csproj",
+        "projectName": "IFCE.Avisos.Domain",
+        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/IFCE.Avisos.Domain.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Infra.Data/IFCE.Avisos.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Infra.Data/IFCE.Avisos.Infra.Data.csproj",
+        "projectName": "IFCE.Avisos.Infra.Data",
+        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Infra.Data/IFCE.Avisos.Infra.Data.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/IFCE.Avisos.Core.csproj": {
+                "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Core/IFCE.Avisos.Core.csproj"
+              },
+              "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/IFCE.Avisos.Domain.csproj": {
+                "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/IFCE.Avisos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

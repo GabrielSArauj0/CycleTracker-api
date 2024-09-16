@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "V+19YPbx2W8=",
+  "success": true,
+  "projectFilePath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Domain/Ciclo.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/fluentvalidation/11.8.0/fluentvalidation.11.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}

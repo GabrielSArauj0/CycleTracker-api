@@ -1,0 +1,12 @@
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/bin/Debug/net6.0/IFCE.Avisos.Domain.deps.json
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/bin/Debug/net6.0/IFCE.Avisos.Domain.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/bin/Debug/net6.0/IFCE.Avisos.Domain.pdb
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/IFCE.Avisos.Domain.csproj.AssemblyReference.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/IFCE.Avisos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/IFCE.Avisos.Domain.AssemblyInfoInputs.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/IFCE.Avisos.Domain.AssemblyInfo.cs
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/IFCE.Avisos.Domain.csproj.CoreCompileInputs.cache
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/IFCE.Avisos.Domain.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/refint/IFCE.Avisos.Domain.dll
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/IFCE.Avisos.Domain.pdb
+/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/IFCE.Avisos.Domain/obj/Debug/net6.0/ref/IFCE.Avisos.Domain.dll
