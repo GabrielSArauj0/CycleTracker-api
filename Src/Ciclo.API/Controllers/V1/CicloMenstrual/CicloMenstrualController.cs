@@ -3,11 +3,13 @@ using Ciclo.Application.Dtos.V1.Administrador;
 using Ciclo.Application.Dtos.V1.CicloMenstrual;
 using Ciclo.Application.Dtos.V1.CicloMenstrual.FaseCiclo;
 using Ciclo.Application.Notifications;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace Ciclo.API.Controllers.V1.CicloMenstrual;
 
+[AllowAnonymous]
 [Microsoft.AspNetCore.Components.Route("v{version:apiVersion}/[controller]")]
 public class CicloMenstrualController : MainController
 {
@@ -50,7 +52,7 @@ public class CicloMenstrualController : MainController
         return OkResponse(await _cicloMenstrualService.ObterPorId(id));
     }
     
-    /*[HttpGet("fases/{id:int}")]
+    [HttpGet("fases/{cicloId:int}")]
     [SwaggerOperation(Summary = "Calcular as fases de um ciclo por id.", Tags = new[] { "Usuario - Ciclo" })]
     [ProducesResponseType(typeof(List<FaseCicloDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -59,5 +61,5 @@ public class CicloMenstrualController : MainController
     public async Task<IActionResult> CalcularFasesDoCiclo(int cicloId)
     {
         return OkResponse(await _cicloMenstrualService.CalculoCiclo(cicloId));
-    }*/
+    }
 }

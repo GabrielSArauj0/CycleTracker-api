@@ -30,7 +30,7 @@ public class CicloMenstrualMapping : IEntityTypeConfiguration<CicloMenstrual>
         
         builder.Property(c => c.Ativo)
             .IsRequired();
-        
+
         builder.HasOne(c => c.Usuario)
             .WithMany(u => u.CiclosMenstruais)
             .HasForeignKey(c => c.UsuarioId)

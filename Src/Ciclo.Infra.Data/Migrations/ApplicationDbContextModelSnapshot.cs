@@ -64,6 +64,56 @@ namespace Ciclo.Infra.Data.Migrations
                     b.ToTable("Administradores");
                 });
 
+            modelBuilder.Entity("Ciclo.Domain.Entities.CicloMenstrual", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime>("AtualizadoEm")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("AtualizadoPor")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CriadoEm")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("CriadoPor")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DataInicioUltimaMenstruacao")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("DuracaoCiclo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DuracaoMenstruacao")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IntensidadeFluxo")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("MetodoContraceptivo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("CicloMenstrual");
+                });
+
             modelBuilder.Entity("Ciclo.Domain.Entities.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -104,6 +154,22 @@ namespace Ciclo.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("Ciclo.Domain.Entities.CicloMenstrual", b =>
+                {
+                    b.HasOne("Ciclo.Domain.Entities.Usuario", "Usuario")
+                        .WithMany("CiclosMenstruais")
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Ciclo.Domain.Entities.Usuario", b =>
+                {
+                    b.Navigation("CiclosMenstruais");
                 });
 #pragma warning restore 612, 618
         }

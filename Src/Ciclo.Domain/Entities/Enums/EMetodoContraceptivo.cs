@@ -22,12 +22,9 @@ public enum EMetodoContraceptivo
     [Description("Anel Vaginal")]
     AnelVaginal = 6,
 
-    [Description("Contraceptivo de Emergência")]
+    [Description("Contraceptivo de Emergência")]  
     ContraceptivoEmergencia = 7,
-
-    [Description("Laqueadura")]
-    Laqueadura = 8,
-
+    
     [Description("Nenhum")]
-    Nenhum = 9
+    Nenhum = 8
 }

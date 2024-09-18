@@ -11,16 +11,21 @@ namespace Ciclo.Application.Services;
 public class CicloMenstrualService : BaseService, ICicloMenstrualService
 {
     private readonly ICicloMenstrualRepository _cicloMenstrualRepository;
+    private readonly IUsuarioRepository _usuarioRepository;
     
-    public CicloMenstrualService(INotificator notificator, IMapper mapper, ICicloMenstrualRepository cicloMenstrualRepository) : base(notificator, mapper)
+    public CicloMenstrualService(INotificator notificator, IMapper mapper, ICicloMenstrualRepository cicloMenstrualRepository, IUsuarioRepository usuarioRepository) : base(notificator, mapper)
     {
         _cicloMenstrualRepository = cicloMenstrualRepository;
+        _usuarioRepository = usuarioRepository;
     }
 
     public async Task<CicloMenstrualDto?> Adicionar(AdicionarCicloMenstrualDto dto)
     {
         var ciclo = Mapper.Map<CicloMenstrual>(dto);
 
+        var usuario = await _usuarioRepository.ObterPorId(dto.UsuarioId);
+        ciclo.Usuario = usuario;
+        
         _cicloMenstrualRepository.Cadastrar(ciclo);
         if (await _cicloMenstrualRepository.UnitOfWork.Commit())
         {
@@ -28,7 +33,7 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
         }
 
         Notificator.Handle("Não foi possível cadastrar o ciclo menstrual");
-        return null;
+        return null!;
     }
 
     public async Task<CicloMenstrualDto?> Atualizar(int id, AtualizarCicloMenstrualDto dto)
@@ -78,11 +83,11 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
         if (ciclo == null)
         {
             Notificator.HandleNotFoundResource();
-            return new List<FaseCicloDto>();
+            return new List<FaseCicloDto>()!;
         }
 
         var fases = CalcularFasesDoCiclo(ciclo);
-        return Mapper.Map<List<FaseCicloDto>>(fases);
+        return Mapper.Map<List<FaseCicloDto>>(fases)!;
     }
 
     private List<FaseCicloDto> CalcularFasesDoCiclo(CicloMenstrual ciclo)
@@ -93,12 +98,13 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
         DateTime fimMenstruacao = inicioCiclo.AddDays(ciclo.DuracaoMenstruacao - 1);
         fases.Add(new FaseCicloDto { Nome = "Menstruação", Inicio = inicioCiclo, Fim = fimMenstruacao });
         
-        DateTime ovulacao = inicioCiclo.AddDays(ciclo.DuracaoCiclo / 2);
+        DateTime ovulacao = inicioCiclo.AddDays(ciclo.DuracaoCiclo  /2);
         fases.Add(new FaseCicloDto { Nome = "Ovulação", Inicio = ovulacao, Fim = ovulacao });
         
         DateTime inicioFertil = ovulacao.AddDays(-4);
         DateTime fimFertil = ovulacao.AddDays(4);
         fases.Add(new FaseCicloDto { Nome = "Período Fértil", Inicio = inicioFertil, Fim = fimFertil });
+        
 
         return fases;
     }

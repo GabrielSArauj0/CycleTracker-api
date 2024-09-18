@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Application/Ciclo.Application.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Application\\Ciclo.Application.csproj": {}
   },
   "projects": {
-    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Application/Ciclo.Application.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Application\\Ciclo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Application/Ciclo.Application.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Application\\Ciclo.Application.csproj",
         "projectName": "Ciclo.Application",
-        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Application/Ciclo.Application.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Application/obj/",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Application\\Ciclo.Application.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Infra.Data/Ciclo.Infra.Data.csproj": {
-                "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Infra.Data/Ciclo.Infra.Data.csproj"
+              "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj"
               }
             }
           }
@@ -36,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -122,31 +134,52 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/Ciclo.Core.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Core\\Ciclo.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/Ciclo.Core.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Core\\Ciclo.Core.csproj",
         "projectName": "Ciclo.Core",
-        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/Ciclo.Core.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/obj/",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Core\\Ciclo.Core.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -159,6 +192,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -245,31 +283,52 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Domain/Ciclo.Domain.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Domain/Ciclo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj",
         "projectName": "Ciclo.Domain",
-        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Domain/Ciclo.Domain.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Domain/obj/",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -282,6 +341,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -304,42 +368,63 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Infra.Data/Ciclo.Infra.Data.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Infra.Data/Ciclo.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj",
         "projectName": "Ciclo.Infra.Data",
-        "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Infra.Data/Ciclo.Infra.Data.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Infra.Data/obj/",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/Ciclo.Core.csproj": {
-                "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Core/Ciclo.Core.csproj"
+              "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Core\\Ciclo.Core.csproj": {
+                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Core\\Ciclo.Core.csproj"
               },
-              "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Domain/Ciclo.Domain.csproj": {
-                "projectPath": "/home/matheus/dev/Projetos_Pessoais/backend/cycle2/avisos-api/Src/Ciclo.Domain/Ciclo.Domain.csproj"
+              "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj": {
+                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj"
               }
             }
           }
@@ -348,6 +433,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -386,12 +476,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

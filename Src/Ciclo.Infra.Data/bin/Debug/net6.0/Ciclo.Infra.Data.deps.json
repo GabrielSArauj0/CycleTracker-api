@@ -1041,12 +1041,12 @@
           "runtimes/win-x64/native/OpenTelemetry.AutoInstrumentation.Native.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.7.0.0"
           },
           "runtimes/win-x86/native/OpenTelemetry.AutoInstrumentation.Native.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.7.0.0"
           }
         }
       },
