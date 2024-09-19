@@ -64,6 +64,30 @@ namespace Ciclo.Infra.Data.Migrations
                     b.ToTable("Administradores");
                 });
 
+            modelBuilder.Entity("Ciclo.Domain.Entities.Anotacoes", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int?>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Anotacoes");
+                });
+
             modelBuilder.Entity("Ciclo.Domain.Entities.CicloMenstrual", b =>
                 {
                     b.Property<int>("Id")
@@ -111,7 +135,7 @@ namespace Ciclo.Infra.Data.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("CicloMenstrual");
+                    b.ToTable("CicloMenstruals");
                 });
 
             modelBuilder.Entity("Ciclo.Domain.Entities.Usuario", b =>
@@ -156,6 +180,13 @@ namespace Ciclo.Infra.Data.Migrations
                     b.ToTable("Usuarios");
                 });
 
+            modelBuilder.Entity("Ciclo.Domain.Entities.Anotacoes", b =>
+                {
+                    b.HasOne("Ciclo.Domain.Entities.Usuario", null)
+                        .WithMany("AnotacoesList")
+                        .HasForeignKey("UsuarioId");
+                });
+
             modelBuilder.Entity("Ciclo.Domain.Entities.CicloMenstrual", b =>
                 {
                     b.HasOne("Ciclo.Domain.Entities.Usuario", "Usuario")
@@ -169,6 +200,8 @@ namespace Ciclo.Infra.Data.Migrations
 
             modelBuilder.Entity("Ciclo.Domain.Entities.Usuario", b =>
                 {
+                    b.Navigation("AnotacoesList");
+
                     b.Navigation("CiclosMenstruais");
                 });
 #pragma warning restore 612, 618

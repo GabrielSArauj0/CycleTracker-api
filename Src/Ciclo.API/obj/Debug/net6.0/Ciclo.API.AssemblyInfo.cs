@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ciclo.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70d4a7b069abec291e4ac464ed9f02cb6dc2f723")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8bc725d3caee1086b6258195d54f70bf99c22a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ciclo.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ciclo.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

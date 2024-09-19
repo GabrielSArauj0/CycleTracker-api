@@ -1,5 +1,4 @@
 using Ciclo.Application.Contracts;
-using Ciclo.Application.Dtos.V1.Administrador;
 using Ciclo.Application.Dtos.V1.CicloMenstrual;
 using Ciclo.Application.Dtos.V1.CicloMenstrual.FaseCiclo;
 using Ciclo.Application.Notifications;
@@ -9,7 +8,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace Ciclo.API.Controllers.V1.CicloMenstrual;
 
-[AllowAnonymous]
+
 [Microsoft.AspNetCore.Components.Route("v{version:apiVersion}/[controller]")]
 public class CicloMenstrualController : MainController
 {
@@ -21,13 +20,13 @@ public class CicloMenstrualController : MainController
     }
     
     [HttpPost]
-    [SwaggerOperation(Summary = "Adicionar um Cilo.", Tags = new [] { "Usuario - Ciclo" })]
+    [SwaggerOperation(Summary = "Adicionar um Ciclo.", Tags = new [] { "Usuario - Ciclo" })]
     [ProducesResponseType(typeof(CicloMenstrualDto), StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status403Forbidden)]
     public async Task<IActionResult> Adicionar([FromForm] AdicionarCicloMenstrualDto dto)
     {
-        return OkResponse(await _cicloMenstrualService.Adicionar(dto));
+        return CreatedResponse("", await _cicloMenstrualService.Adicionar(dto));
     }
     
     [HttpPut("{id}")]

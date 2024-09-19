@@ -5,27 +5,34 @@ using Ciclo.Application.Dtos.V1.CicloMenstrual.FaseCiclo;
 using Ciclo.Application.Notifications;
 using Ciclo.Domain.Contracts.Repositories;
 using Ciclo.Domain.Entities;
+using FluentValidation.Results;
 
 namespace Ciclo.Application.Services;
 
 public class CicloMenstrualService : BaseService, ICicloMenstrualService
 {
     private readonly ICicloMenstrualRepository _cicloMenstrualRepository;
-    private readonly IUsuarioRepository _usuarioRepository;
-    
-    public CicloMenstrualService(INotificator notificator, IMapper mapper, ICicloMenstrualRepository cicloMenstrualRepository, IUsuarioRepository usuarioRepository) : base(notificator, mapper)
+
+
+    public CicloMenstrualService(INotificator notificator, IMapper mapper,
+        ICicloMenstrualRepository cicloMenstrualRepository) : base(notificator,
+        mapper)
     {
         _cicloMenstrualRepository = cicloMenstrualRepository;
-        _usuarioRepository = usuarioRepository;
     }
 
     public async Task<CicloMenstrualDto?> Adicionar(AdicionarCicloMenstrualDto dto)
     {
         var ciclo = Mapper.Map<CicloMenstrual>(dto);
 
+        if (!Validation(ciclo))
+        {
+            return null;
+        }
+        /*
         var usuario = await _usuarioRepository.ObterPorId(dto.UsuarioId);
-        ciclo.Usuario = usuario;
-        
+        ciclo.Usuario = usuario;*/
+
         _cicloMenstrualRepository.Cadastrar(ciclo);
         if (await _cicloMenstrualRepository.UnitOfWork.Commit())
         {
@@ -52,7 +59,7 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
         }
 
         Mapper.Map(dto, ciclo);
-        
+
 
         _cicloMenstrualRepository.Atualizar(ciclo);
 
@@ -94,18 +101,29 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
     {
         var fases = new List<FaseCicloDto>();
         DateTime inicioCiclo = ciclo.DataInicioUltimaMenstruacao;
-        
+
         DateTime fimMenstruacao = inicioCiclo.AddDays(ciclo.DuracaoMenstruacao - 1);
         fases.Add(new FaseCicloDto { Nome = "Menstruação", Inicio = inicioCiclo, Fim = fimMenstruacao });
-        
-        DateTime ovulacao = inicioCiclo.AddDays(ciclo.DuracaoCiclo  /2);
+
+        DateTime ovulacao = inicioCiclo.AddDays(ciclo.DuracaoCiclo / 2);
         fases.Add(new FaseCicloDto { Nome = "Ovulação", Inicio = ovulacao, Fim = ovulacao });
-        
+
         DateTime inicioFertil = ovulacao.AddDays(-4);
         DateTime fimFertil = ovulacao.AddDays(4);
         fases.Add(new FaseCicloDto { Nome = "Período Fértil", Inicio = inicioFertil, Fim = fimFertil });
-        
+
 
         return fases;
     }
+
+    private bool Validation(CicloMenstrual ciclo)
+    {
+        if (!ciclo.Validate(out var validationResult))
+        {
+            Notificator.Handle(validationResult.Errors);
+        }
+
+        return !Notificator.HasNotification;
+    }
+
 }

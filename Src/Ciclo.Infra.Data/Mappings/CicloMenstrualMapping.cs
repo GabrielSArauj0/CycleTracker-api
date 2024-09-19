@@ -34,6 +34,7 @@ public class CicloMenstrualMapping : IEntityTypeConfiguration<CicloMenstrual>
         builder.HasOne(c => c.Usuario)
             .WithMany(u => u.CiclosMenstruais)
             .HasForeignKey(c => c.UsuarioId)
+            .HasPrincipalKey(c => c.Id)
             .OnDelete(DeleteBehavior.Restrict); // colocar um HasIndex new{id, userId}
     }
 }
