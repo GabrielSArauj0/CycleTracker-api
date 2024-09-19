@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dbydmYLlKlE=",
+  "dgSpecHash": "CUJeEBlYUSI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.Application\\Ciclo.Application.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -13,6 +13,8 @@ public class Usuario : Entity, IAggregateRoot, ISoftDelete
 
     public virtual List<CicloMenstrual> CiclosMenstruais { get; set; } = new();
     
+    public virtual List<Anotacoes> AnotacoesList { get; set; } = new();
+    
     public override bool Validate(out ValidationResult validationResult)
     {
         validationResult = new UsuarioValidator().Validate(this);

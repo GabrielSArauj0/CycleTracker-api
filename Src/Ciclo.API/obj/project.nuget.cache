@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Evzj/b1vOG4=",
+  "dgSpecHash": "vBhRUII7c20=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Ciclo\\Ciclo2\\Src\\Ciclo.API\\Ciclo.API.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.API\\Ciclo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\aspnetcore.healthchecks.mysql\\8.0.1\\aspnetcore.healthchecks.mysql.8.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\aspnetcore.healthchecks.redis\\6.0.4\\aspnetcore.healthchecks.redis.6.0.4.nupkg.sha512",
