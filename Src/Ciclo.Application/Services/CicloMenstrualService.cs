@@ -81,7 +81,7 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
         return null;
     }
 
-    public async Task<List<FaseCicloDto?>> CalculoCiclo(int cicloId)
+    public async Task<List<FaseCicloDto>> CalculoCiclo(int cicloId)
     {
         var ciclo = await _cicloMenstrualRepository.ObterPorId(cicloId);
         if (ciclo == null)
@@ -92,8 +92,9 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
 
         var fases = CalcularFasesDoCiclo(ciclo);
         return Mapper.Map<List<FaseCicloDto>>(fases)!;
-    }
+        
 
+    }
     private List<FaseCicloDto> CalcularFasesDoCiclo(CicloMenstrual ciclo)
     {
         var fases = new List<FaseCicloDto>();
@@ -113,6 +114,7 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
 
         return fases;
     }
+
 
     private bool Validation(CicloMenstrual ciclo)
     {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ciclo.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b314f2c4a7e30b5fa40b39c7aadf8a8870d96f6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc9fff9f740d87009f7dbdbae4c28f0f49539dd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ciclo.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ciclo.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

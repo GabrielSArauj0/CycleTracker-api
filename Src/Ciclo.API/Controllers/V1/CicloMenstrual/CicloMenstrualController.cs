@@ -51,14 +51,14 @@ public class CicloMenstrualController : MainController
         return OkResponse(await _cicloMenstrualService.ObterPorId(id));
     }
     
-    [HttpGet("fases/{cicloId:int}")]
+    [HttpGet("fases/{id:int}")]
     [SwaggerOperation(Summary = "Calcular as fases de um ciclo por id.", Tags = new[] { "Usuario - Ciclo" })]
     [ProducesResponseType(typeof(List<FaseCicloDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status403Forbidden)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> CalcularFasesDoCiclo(int cicloId)
+    public async Task<IActionResult> CalcularFasesDoCiclo(int id)
     {
-        return OkResponse(await _cicloMenstrualService.CalculoCiclo(cicloId));
+        return OkResponse(await _cicloMenstrualService.CalculoCiclo(id));
     }
 }

@@ -8,5 +8,5 @@ public interface ICicloMenstrualService
     Task<CicloMenstrualDto?> Adicionar(AdicionarCicloMenstrualDto dto);
     Task<CicloMenstrualDto?> Atualizar(int id, AtualizarCicloMenstrualDto dto);
     Task<CicloMenstrualDto?> ObterPorId(int id);
-    Task<List<FaseCicloDto?>> CalculoCiclo(int cicloId);
+    Task<List<FaseCicloDto>> CalculoCiclo(int cicloId);
 }
