@@ -32,7 +32,7 @@ public class CicloMenstrualController : MainController
     }
     
     [HttpPut("{id}")]
-    [SwaggerOperation(Summary = "Atualizar um Ciclo.", Tags = new [] { "Usuario - Ciclo" })]
+    [SwaggerOperation(Summary = "Atualizar uma anotação.", Tags = new [] { "Usuario - Anotação" })]
     [ProducesResponseType(typeof(AnotacaoDto), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status403Forbidden)]

@@ -7,7 +7,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace Ciclo.API.Controllers.V1.Administracao;
 
-[Authorize]
+[AllowAnonymous]
 [Route("v{version:apiVersion}/[controller]")]
 public class AdministradoresController : MainController
 {
