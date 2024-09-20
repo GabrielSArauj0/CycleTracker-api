@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ciclo.Infra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a27f999381ce8de66c3fa269d33820929703efc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b314f2c4a7e30b5fa40b39c7aadf8a8870d96f6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ciclo.Infra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ciclo.Infra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

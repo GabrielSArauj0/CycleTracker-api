@@ -36,3 +36,16 @@ C:\Users\gabri\OneDrive\Desktop\ProjPOO\CycleTracker-api\Src\Ciclo.Domain\obj\De
 C:\Users\gabri\OneDrive\Desktop\ProjPOO\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\refint\Ciclo.Domain.dll
 C:\Users\gabri\OneDrive\Desktop\ProjPOO\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.pdb
 C:\Users\gabri\OneDrive\Desktop\ProjPOO\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\ref\Ciclo.Domain.dll
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\bin\Debug\net6.0\Ciclo.Domain.deps.json
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\bin\Debug\net6.0\Ciclo.Domain.dll
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\bin\Debug\net6.0\Ciclo.Domain.pdb
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.sourcelink.json
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.dll
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\refint\Ciclo.Domain.dll
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\Ciclo.Domain.pdb
+C:\Users\gabri\OneDrive\Desktop\Cicle\CycleTracker-api\Src\Ciclo.Domain\obj\Debug\net6.0\ref\Ciclo.Domain.dll

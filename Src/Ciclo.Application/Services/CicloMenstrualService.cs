@@ -99,7 +99,8 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
         var fases = new List<FaseCicloDto>();
         DateTime inicioCiclo = ciclo.DataInicioUltimaMenstruacao;
 
-        DateTime fimMenstruacao = inicioCiclo.AddDays(ciclo.DuracaoMenstruacao - 1);
+        DateTime fimMenstruacao = inicioCiclo.AddDays
+            (ciclo.DuracaoMenstruacao - 1);
         fases.Add(new FaseCicloDto { Nome = "Menstruação", Inicio = inicioCiclo, Fim = fimMenstruacao });
 
         DateTime ovulacao = inicioCiclo.AddDays(ciclo.DuracaoCiclo / 2);

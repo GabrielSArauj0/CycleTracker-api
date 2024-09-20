@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj",
         "projectName": "Ciclo.Application",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Application\\Ciclo.Application.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Application\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj"
+              "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj"
               }
             }
           }
@@ -157,14 +157,14 @@
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj",
         "projectName": "Ciclo.Core",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Core\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -306,14 +306,14 @@
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj",
         "projectName": "Ciclo.Domain",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -391,14 +391,14 @@
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj",
         "projectName": "Ciclo.Infra.Data",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\Ciclo.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -420,11 +420,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj"
+              "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj": {
+                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj"
               },
-              "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj"
+              "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj": {
+                "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Domain\\Ciclo.Domain.csproj"
               }
             }
           }

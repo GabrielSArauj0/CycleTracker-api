@@ -17,5 +17,5 @@ public enum EIntensidadeFluxo
     Intermenstrual = 4,
 
     [Description("Ausência de Fluxo")]
-    Ausencia = 5
+    Ausência = 5
 }

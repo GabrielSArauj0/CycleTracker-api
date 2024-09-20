@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E1ZXA8N4CF0=",
+  "dgSpecHash": "oHvwUILfHZ4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Desktop\\ProjPOO\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Desktop\\Cicle\\CycleTracker-api\\Src\\Ciclo.Core\\Ciclo.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",
