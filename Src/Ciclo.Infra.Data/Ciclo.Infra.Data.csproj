@@ -24,8 +24,4 @@
       <ProjectReference Include="..\Ciclo.Domain\Ciclo.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Compile Remove="Repositories\AnotacoesRepository.cs" />
-    </ItemGroup>
-
 </Project>

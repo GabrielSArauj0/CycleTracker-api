@@ -18,7 +18,8 @@ public class ApplicationDbContext : DbContext, IUnitOfWork
     public DbSet<Administrador> Administradores { get; set; } = null!;
     public DbSet<Usuario> Usuarios { get; set; } = null!;
     public DbSet<CicloMenstrual> CicloMenstruals { get; set; } = null!;
-
+    public DbSet<Anotacoes> Anotacoes { get; set; } = null!;
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         ApplyConfigurations(modelBuilder);

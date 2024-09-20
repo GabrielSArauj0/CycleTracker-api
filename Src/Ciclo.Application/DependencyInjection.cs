@@ -15,6 +15,7 @@ using ScottBrady91.AspNetCore.Identity;
 using Ciclo.Infra.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
@@ -72,7 +73,9 @@ public static class DependencyInjection
             .AddScoped<IUsuarioAuthService, UsuarioAuthService>()
             .AddScoped<IAdministradorService, AdministradorService>()
             .AddScoped<IUsuarioService, UsuarioService>()
-            .AddScoped<ICicloMenstrualService, CicloMenstrualService>();
+            .AddScoped<ICicloMenstrualService, CicloMenstrualService>()
+            .AddScoped<IAnotacoesService, AnotacoesService>();
+
     }
     
     public static void UseStaticFileConfiguration(this IApplicationBuilder app, IConfiguration configuration)

@@ -1,4 +1,5 @@
 using AutoMapper;
+using Ciclo.Application.Dtos.V1.Anotacoes;
 using Ciclo.Application.Dtos.V1.CicloMenstrual;
 using Ciclo.Application.Dtos.V1.Usuario;
 using Ciclo.Domain.Entities;
@@ -31,6 +32,15 @@ public class AutoMapperProfile : Profile
         CreateMap<AdicionarCicloMenstrualDto, CicloMenstrual>().ReverseMap();
         CreateMap<AtualizarCicloMenstrualDto, CicloMenstrual>().ReverseMap();
 
+        #endregion
+
+        #region Anotacoes
+        
+        CreateMap<AnotacaoDto, Anotacoes>().ReverseMap();
+        CreateMap<AdicionarAnotacaoDto, Anotacoes>().ReverseMap();
+        CreateMap<AtualizarAnotacaoDto, Anotacoes>().ReverseMap();
+        CreateMap<AnotacaoDeletarDto, Anotacoes>().ReverseMap();
+        
         #endregion
     }
 }
