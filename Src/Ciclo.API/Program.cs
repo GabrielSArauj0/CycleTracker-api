@@ -17,6 +17,8 @@ builder
         o.DefaultRequestCulture = new RequestCulture("pt-BR", "pt-BR");
         o.SupportedCultures = supportedCultures;
         o.SupportedUICultures = supportedCultures;
+        
+        
     });
 
 builder
@@ -26,6 +28,7 @@ builder
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
     .AddUserSecrets(Assembly.GetExecutingAssembly(), true, true)
     .AddEnvironmentVariables();
+
 
 builder
     .Services

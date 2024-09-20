@@ -29,10 +29,7 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
         {
             return null;
         }
-        /*
-        var usuario = await _usuarioRepository.ObterPorId(dto.UsuarioId);
-        ciclo.Usuario = usuario;*/
-
+      
         _cicloMenstrualRepository.Cadastrar(ciclo);
         if (await _cicloMenstrualRepository.UnitOfWork.Commit())
         {
@@ -125,5 +122,4 @@ public class CicloMenstrualService : BaseService, ICicloMenstrualService
 
         return !Notificator.HasNotification;
     }
-
 }
